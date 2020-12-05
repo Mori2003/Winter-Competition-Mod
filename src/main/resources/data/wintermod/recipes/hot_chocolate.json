@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "C",
+        "M"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "C": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    "result": {
+        "item": "wintermod:hot_chocolate"
+    }
+}
