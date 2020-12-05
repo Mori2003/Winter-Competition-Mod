@@ -17,6 +17,8 @@
         }
     },
     "result": {
-        "item": "wintermod:hot_chocolate"
+        "item": "wintermod:hot_chocolate",
+        "count": 1,
+        "experience": 0.5
     }
 }
