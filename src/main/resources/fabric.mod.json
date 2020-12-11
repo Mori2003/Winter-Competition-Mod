@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.mori.wintermod.WinterMod"
+    ],
+    "client": [
+      "com.mori.wintermod.WinterClient"
     ]
   },
   "mixins": [
