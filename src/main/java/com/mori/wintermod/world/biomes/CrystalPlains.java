@@ -1,6 +1,7 @@
 package com.mori.wintermod.world.biomes;
 
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext.Default;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biome.Category;
 import net.minecraft.world.biome.BiomeEffects;
@@ -15,9 +16,9 @@ public class CrystalPlains
 {
     public static final ConfiguredSurfaceBuilder<TernarySurfaceConfig> CRYSTALPLAINS_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
     .withConfig(new TernarySurfaceConfig(
-      Blocks.SAND.getDefaultState(),
-      Blocks.SAND.getDefaultState(),
-      Blocks.SAND.getDefaultState()));
+      Blocks.SNOW_BLOCK.getDefaultState(),
+      Blocks.STONE.getDefaultState(),
+      Blocks.GRAVEL.getDefaultState()));
  
     public static final Biome CRYSTALPLAINS = createCrystalPlains();
  
@@ -35,6 +36,7 @@ public class CrystalPlains
     generationSettings.surfaceBuilder(CRYSTALPLAINS_SURFACE_BUILDER);
     DefaultBiomeFeatures.addDefaultUndergroundStructures(generationSettings);
     DefaultBiomeFeatures.addLandCarvers(generationSettings);
+    DefaultBiomeFeatures.addFrozenTopLayer(generationSettings);
     DefaultBiomeFeatures.addDungeons(generationSettings);
     DefaultBiomeFeatures.addMineables(generationSettings);
     DefaultBiomeFeatures.addDefaultOres(generationSettings);
@@ -42,10 +44,10 @@ public class CrystalPlains
     DefaultBiomeFeatures.addSprings(generationSettings);
  
     return (new Biome.Builder())
-      .precipitation(Biome.Precipitation.RAIN)
-      .category(Category.BEACH)
-      .depth(0.1F)
-      .scale(0.1F)
+      .precipitation(Biome.Precipitation.SNOW)
+      .category(Category.ICY)
+      .depth(3.5F)
+      .scale(0.01F)
       .temperature(1.6F)
       .downfall(0.2F)
       .effects((new BiomeEffects.Builder())

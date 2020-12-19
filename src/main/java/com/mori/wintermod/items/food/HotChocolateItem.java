@@ -21,7 +21,7 @@ public class HotChocolateItem extends HoneyBottleItem
         ItemStack itemStack = super.finishUsing(stack, world, user);
         if (!world.isClient) 
         {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 3));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 90, 3));
         }
         return user instanceof PlayerEntity && ((PlayerEntity)user).abilities.creativeMode ? itemStack : new ItemStack(null);
     }

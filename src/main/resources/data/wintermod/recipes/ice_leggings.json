@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_leggings"
+    },
+    "addition": {
+        "item": "wintermod:iced_crystal"
+    },
+    "result": {
+        "item": "wintermod:ice_leggings"
+    }
+}

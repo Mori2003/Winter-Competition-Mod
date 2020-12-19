@@ -1,3 +1,3 @@
 # Winter Mod 
 
-## Mod for a Winter Competition
+## Mod for Only One - Winter Competition
