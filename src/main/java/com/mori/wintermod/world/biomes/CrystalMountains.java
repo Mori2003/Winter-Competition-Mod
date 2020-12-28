@@ -12,17 +12,17 @@ import net.minecraft.world.gen.surfacebuilder.ConfiguredSurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.SurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.TernarySurfaceConfig;
 
-public class CrystalPlains 
+public class CrystalMountains 
 {
-    public static final ConfiguredSurfaceBuilder<TernarySurfaceConfig> CRYSTALPLAINS_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
+    public static final ConfiguredSurfaceBuilder<TernarySurfaceConfig> CRYSTALMOUNTAINS_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
     .withConfig(new TernarySurfaceConfig(
       Blocks.SNOW_BLOCK.getDefaultState(),
       Blocks.STONE.getDefaultState(),
       Blocks.GRAVEL.getDefaultState()));
  
-    public static final Biome CRYSTALPLAINS = createCrystalPlains();
+    public static final Biome CRYSTALMOUNTAINS = createCrystalMountains();
  
-    private static Biome createCrystalPlains() {
+    private static Biome createCrystalMountains() {
     // We specify what entities spawn and what features generate in the biome.
     // Aside from some structures, trees, rocks, plants and
     //   custom entities, these are mostly the same for each biome.
@@ -31,11 +31,19 @@ public class CrystalPlains
     SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
     DefaultBiomeFeatures.addFarmAnimals(spawnSettings);
     DefaultBiomeFeatures.addMonsters(spawnSettings, 95, 5, 100);
+
+    DefaultBiomeFeatures.addSnowyMobs(spawnSettings);
  
     GenerationSettings.Builder generationSettings = new GenerationSettings.Builder();
-    generationSettings.surfaceBuilder(CRYSTALPLAINS_SURFACE_BUILDER);
+    generationSettings.surfaceBuilder(CRYSTALMOUNTAINS_SURFACE_BUILDER);
     DefaultBiomeFeatures.addDefaultUndergroundStructures(generationSettings);
     DefaultBiomeFeatures.addLandCarvers(generationSettings);
+
+    //DefaultBiomeFeatures.addDefaultLakes(generationSettings);
+    //DefaultBiomeFeatures.addMountainTrees(generationSettings);
+    DefaultBiomeFeatures.addBlueIce(generationSettings);
+    //DefaultBiomeFeatures.addIcebergs(generationSettings);
+
     DefaultBiomeFeatures.addFrozenTopLayer(generationSettings);
     DefaultBiomeFeatures.addDungeons(generationSettings);
     DefaultBiomeFeatures.addMineables(generationSettings);
@@ -47,7 +55,7 @@ public class CrystalPlains
       .precipitation(Biome.Precipitation.SNOW)
       .category(Category.ICY)
       .depth(3.5F)
-      .scale(0.01F)
+      .scale(0.02F)
       .temperature(1.6F)
       .downfall(0.2F)
       .effects((new BiomeEffects.Builder())

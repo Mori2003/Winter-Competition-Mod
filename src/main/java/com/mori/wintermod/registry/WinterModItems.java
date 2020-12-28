@@ -25,7 +25,7 @@ public class WinterModItems
     //Drink/Food
     public static final Item HOT_CHOCOLATE = new HotChocolateItem(new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP).food(FoodComponents.POTATO).maxCount(2));
 
-    //Tools
+    //Weapon
 
     //Armor
     public static final ArmorMaterial IceArmorMaterial = new IceArmorMaterial();
@@ -46,7 +46,7 @@ public class WinterModItems
         //Drink/Food
         Registry.register(Registry.ITEM, new Identifier(WinterMod.MOD_ID, "hot_chocolate"), HOT_CHOCOLATE);
 
-        //Tools
+        //Weapon
 
         //Armor
         Registry.register(Registry.ITEM, new Identifier(WinterMod.MOD_ID, "ice_helmet"), ICE_HELMET);

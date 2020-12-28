@@ -1,6 +1,6 @@
 package com.mori.wintermod.registry;
 
-import com.mori.wintermod.world.biomes.CrystalPlains;
+import com.mori.wintermod.world.biomes.CrystalMountains;
 
 import net.fabricmc.fabric.api.biome.v1.OverworldBiomes;
 import net.minecraft.util.Identifier;
@@ -13,15 +13,15 @@ import net.minecraft.world.biome.BiomeKeys;
 public class WinterModBiomes 
 {
 
-    public static final RegistryKey<Biome> CRYSTALPLAINS_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier("wintermod", "crystalplains"));
+    public static final RegistryKey<Biome> CRYSTALMOUNTAINS_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier("wintermod", "crystalmountains"));
 
     public static void registerBiomes() {
 
-        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier("wintermod", "crystalplainssurface"), CrystalPlains.CRYSTALPLAINS_SURFACE_BUILDER);
+        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier("wintermod", "crystalmountainsssurface"), CrystalMountains.CRYSTALMOUNTAINS_SURFACE_BUILDER);
 
-        Registry.register(BuiltinRegistries.BIOME, CRYSTALPLAINS_KEY.getValue(), CrystalPlains.CRYSTALPLAINS);
+        Registry.register(BuiltinRegistries.BIOME, CRYSTALMOUNTAINS_KEY.getValue(), CrystalMountains.CRYSTALMOUNTAINS);
 
         
-        OverworldBiomes.addBiomeVariant(BiomeKeys.SNOWY_TUNDRA, CRYSTALPLAINS_KEY, 0.1);
+        OverworldBiomes.addBiomeVariant(BiomeKeys.SNOWY_TUNDRA, CRYSTALMOUNTAINS_KEY, 0.1);
     }
 }

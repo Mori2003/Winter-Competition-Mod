@@ -8,5 +8,11 @@
     "item.wintermod.ice_leggings": "Iced Crystal Leggings",
     "item.wintermod.ice_boots": "Iced Crystal Boots",
 
+    "item.wintermod.iced_crystal": "Iced Crystal",
+
+    "item.wintermod.icedcrystal_ore": "Iced Crystal Ore",
+
+    "block.wintermod.icedcrystal_ore": "Iced Crystal Ore",
+
     "itemGroup.wintermod.general": "Moris Wintermod"
 }
