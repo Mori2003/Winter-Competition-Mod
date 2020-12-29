@@ -26,7 +26,7 @@ public class WinterModFeatures
       50, // min y level
       200))) // max y level
     .spreadHorizontally()
-    .repeat(20); // number of veins per chunk
+    .repeat(15); // number of veins per chunk
 
 
     public static void registerFeatures() 
