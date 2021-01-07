@@ -4,6 +4,7 @@
 
 NOTE: 
 
+- THIS MOD IS FOR FABRIC 1.16.4: https://fabricmc.net/
 - THIS MOD USES GECKOLIB WHICH CAN BE FOUND HERE: https://www.curseforge.com/minecraft/mc-mods/geckolib-fabric
 - IT ALSO NEEDS THE FABRIC API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
 
