@@ -3,14 +3,14 @@ package com.mori.wintermod.items.tools;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 
-public class IceAxe extends AxeItem {
+public class IceSword extends SwordItem {
 
-    public IceAxe(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
-        super(material, attackDamage, attackSpeed, settings);
+    public IceSword(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+        super(toolMaterial, attackDamage, attackSpeed, settings);
         // TODO Auto-generated constructor stub
     }
     
@@ -22,4 +22,5 @@ public class IceAxe extends AxeItem {
     
         return super.postHit(stack, target, attacker);
     }
+
 }

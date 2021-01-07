@@ -8,6 +8,7 @@ import com.mori.wintermod.items.icon.SnowflakeItem;
 import com.mori.wintermod.items.tools.IceAxe;
 import com.mori.wintermod.items.tools.IceHoe;
 import com.mori.wintermod.items.tools.IcePickaxe;
+import com.mori.wintermod.items.tools.IceSword;
 import com.mori.wintermod.items.tools.IceToolMaterial;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -29,10 +30,10 @@ public class WinterModItems
     public static final Item ICEDCRYSTAL = new Item(new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP).maxCount(16));
 
     //Drink/Food
-    public static final Item HOT_CHOCOLATE = new HotChocolateItem(new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP).food(FoodComponents.POTATO).maxCount(2));
+    public static final Item HOT_CHOCOLATE = new HotChocolateItem(new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP).food(FoodComponents.POTATO).maxCount(1));
 
     //Tools
-    public static final Item ICE_SWORD = new SwordItem(IceToolMaterial.INSTANCE, 3, -2.4F, new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP));
+    public static final Item ICE_SWORD = new IceSword(IceToolMaterial.INSTANCE, 3, -2.4F, new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP));
     public static final Item ICE_SHOVEL = new ShovelItem(IceToolMaterial.INSTANCE, 1.5F, -3.0F, new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP));
 
     public static final Item ICE_HOE = new IceHoe(IceToolMaterial.INSTANCE, -2, -1.0F, new FabricItemSettings().group(WinterModItemGroup.ITEM_GROUP));

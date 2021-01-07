@@ -18,7 +18,11 @@
 
     "item.wintermod.icedcrystal_ore": "Iced Crystal Ore",
 
-    "block.wintermod.icedcrystal_ore": "Iced Crystal Ore",
+    "item.wintermod.present": "Present",
+
+    "block.wintermod.present": "Present",
+
+
 
     "itemGroup.wintermod.general": "Moris Wintermod"
 }
