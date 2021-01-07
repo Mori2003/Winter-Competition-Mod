@@ -59,8 +59,8 @@ they are also crafted by upgrading iron gear with a iced crystal at the smithing
 -Provides Iced Crystal Ore
 -Cozy Cabin Structure
 
-![cozycabin.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/cozycabin.png?raw=true)
- 
+![cozycabin.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/cozycabin.PNG?raw=true)
+
 
 
 
