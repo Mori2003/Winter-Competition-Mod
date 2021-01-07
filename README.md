@@ -25,18 +25,18 @@ can be crafted by upgrading iron armor with a iced crystal
 - Sword and Axe inflict Slowness on Hit
 - Durability is between Iron and Diamond 
 
-![tools.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/tools.png)
+![tools.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/tools.PNG)
 
 they are also crafted by upgrading iron gear with a iced crystal at the smithing table
 
-![upgrade.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/upgrade.png)
+![upgrade.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/upgrade.PNG)
 
 #### Food:
 
 **Hot Chocolate**
 - Gives Regeneration
 
-![hotchoc.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/hotchoc.png)
+![hotchoc.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/hotchoc.PNG)
 
 #### Blocks:
 
@@ -45,12 +45,12 @@ they are also crafted by upgrading iron gear with a iced crystal at the smithing
 - Only generates in the CrystalMountains Biome
 - Y 50-200
 
-![crystal.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/crystal.png)
+![crystal.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/crystal.PNG)
 
 **Present**
-![present.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/present.png)
+![present.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/present.PNG)
 
-![crafting.png](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/crafting.png)
+![crafting.PNG](https://github.com/Mori2003/Winter-Competition-Mod/blob/main/wiki/crafting.PNG)
 
 #### World:
 
